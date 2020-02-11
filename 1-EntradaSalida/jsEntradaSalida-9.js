@@ -6,7 +6,6 @@ function mostrarAumento()
 {
     var sueldo;
     var resultado;
-    var aumento;
 
     sueldo = document.getElementById("sueldo").value;
 
