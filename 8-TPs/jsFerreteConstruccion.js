@@ -39,5 +39,20 @@ function Circulo ()
 }
 function Materiales () 
 {
-	
+    var totalDeBolsasDeCemento;
+    var totalDeBolsasDeCal;
+    var largo;
+    var ancho;
+
+    largo = document.getElementById("Largo").value;
+    ancho = document.getElementById("Ancho").value;
+
+    largo = parseInt(largo);
+    ancho = parseInt(ancho);
+
+    totalDeBolsasDeCemento = (largo * ancho) * 2 / 1;
+    totalDeBolsasDeCal = (largo * ancho) * 3 / 1;
+
+    alert("La cantidad de bolsas de cemento es " + totalDeBolsasDeCemento + " y la cantidad de bolsas de cal es " + totalDeBolsasDeCal);
+
 }
