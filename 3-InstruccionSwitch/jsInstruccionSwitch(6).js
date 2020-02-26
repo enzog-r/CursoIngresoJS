@@ -3,7 +3,8 @@ function mostrar()
 //tomo la edad  
 var laHora = document.getElementById('hora').value;
 
-switch(laHora){
+switch(laHora)
+{
     case "7":
     case "8":
     case "9":
