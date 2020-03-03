@@ -31,17 +31,18 @@ function mostrar()
             case "22":
             case "23":
             case "24":
+            if(hora => 20 && hora <= 24)
+            {
+                alert("a dormir");
+            }
             case "1":
             case "2":
             case "3":
             case "4":
             case "5":
             alert("es de noche");
-            if(hora > "20" && hora < "24")
-            {
-                alert("a dormir");
-            }
-            break;
+            
+            
         
     
     
