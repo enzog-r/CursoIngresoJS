@@ -4,7 +4,7 @@ function mostrar()
     var numero2;
     var suma;
     var resta;
-    var resultado;
+    
 
     numero1 = prompt("Ingrese un numero");
     numero2= prompt("Ingrese otro numero");
